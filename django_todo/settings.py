@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = True
 
 # ALLOWED_HOSTS = [os.environ.get("ALLOWED_HOSTS")]
-ALLOWED_HOSTS = ['jfs-django-todo-app-5ce0bec91857.herokuapp.com/']
+ALLOWED_HOSTS = ['jfs-django-todo-app-5ce0bec91857.herokuapp.com']
 
 
 # Application definition
