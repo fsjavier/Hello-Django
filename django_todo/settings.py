@@ -35,7 +35,7 @@ DEBUG = True
 #     '8000-fsjavier-hellodjango-13b29r6xpd6.ws-eu104.gitpod.io',
 #     'jfs-django-todo-app-5ce0bec91857.herokuapp.com'
 #     ]
-ALLOWED_HOSTS = os.environ.get("HEROKU_HOSTNAME")
+ALLOWED_HOSTS = [os.environ.get("HEROKU_HOSTNAME")]
 
 
 # Application definition
