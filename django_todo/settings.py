@@ -31,7 +31,10 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = True
 
 # ALLOWED_HOSTS = [os.environ.get("ALLOWED_HOSTS")]
-ALLOWED_HOSTS = ['jfs-django-todo-app-5ce0bec91857.herokuapp.com']
+ALLOWED_HOSTS = [
+    '8000-fsjavier-hellodjango-13b29r6xpd6.ws-eu104.gitpod.io',
+    'jfs-django-todo-app-5ce0bec91857.herokuapp.com'
+    ]
 
 
 # Application definition
